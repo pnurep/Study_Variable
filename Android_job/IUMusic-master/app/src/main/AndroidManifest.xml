@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kitkat.android.iumusic">
+
+    <!-- Permission for WRITE_EXTERNAL_STORAGE -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Permission for Content Provider -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- This will allow us to use our lock screen notification to control media. -->
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Component - Activity -->
+        <!-- Default Activity, Entry Point -->
+        <activity
+            android:name=".activity.IntroActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>      
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+                        
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <!--
+             android:taskAffinity=""
+                  코드에서 설정하는 FLAG_ACTIVITY_NEW_TASK 플래그와 더불어 이 Activity 가
+                  애플리케이션의 기본 TASK으로 들어가지 않게 보장합니다.
+                  애플리케이션의 기본 유사성을 가지고 있는 기존 작업은 모두 영향을 받지 않습니다.
+        -->
+        <!-- android:launchMode="singleTask" Activity Single Instance Mode for Notification -->
+        <!-- android:excludeFromRecents="true" 새 작업을 최근에서 배제하여 사용자가 우연히 이곳으로 다시 이동하지 못하게 합니다. -->
+        <activity
+            android:name=".activity.PlayActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.SearchActivity"></activity>
+
+        <!-- Component - Service -->
+        <service android:name=".media.MediaService" />
+    </application>
+</manifest>

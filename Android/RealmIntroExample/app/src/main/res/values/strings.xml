@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RealmIntroExample</string>
+    <string name="status_output">Status Output…</string>
+
+</resources>

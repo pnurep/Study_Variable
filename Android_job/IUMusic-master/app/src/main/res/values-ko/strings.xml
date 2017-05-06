@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IUMusic</string>
+    <string name="description">너와 나의 음악</string>
+    <string name="title">음악</string>
+    <string name="album">앨범</string>
+    <string name="artist">아티스트</string>
+    <string name="music">음악</string>
+    <string name="genre">장르</string>
+    <string name="time">00:00</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">설정</string>
+    <string name="action_myList">나의 음악</string>
+    <string name="action_search">검색</string>
+</resources>
