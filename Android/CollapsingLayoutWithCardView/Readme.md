@@ -16,6 +16,7 @@
 
     * **exitUntilCollapsed** : 이 값이 설정되면 위쪽으로 스크롤하는 동안 minHeight에 도달할 때 까지만 이 뷰가 사라진다. 그리고 스크롤 방향이 변경될 때 까지는 minHeight지점에 남아 있는다. </br>
     
+    </br>
     
 * <U>**CollapsingToolbarLayout**</U> 컨테이너는 표준 툴바를 개선한 것으로, 스크롤 액션과 연동하여 앱바와 그것의 자식을이 보이거나 사라지게 하는 광범위한 옵션과 제어수준을 제공한다.
 레이아웃파일에서 <U>CollapsingToolbarLayout은 AppBarLayout의 자식으로 추가되며</U>, 툴바가 화면에서 사라지거나 나타날때 툴바 제목의 폰트크기를 자동으로 조정하는 것과 같은 기능을 제공한다.
