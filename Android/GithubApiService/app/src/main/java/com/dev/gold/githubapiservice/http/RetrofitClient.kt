@@ -1,11 +1,9 @@
-package com.dev.gold.githubapiservice
+package com.dev.gold.githubapiservice.http
 
-import android.util.Log
+import com.dev.gold.githubapiservice.Auth
 import com.dev.gold.githubapiservice.api.GithubRepoApi
 import com.dev.gold.githubapiservice.api.StargazerApi
-import com.dev.gold.githubapiservice.model.Stargazer
 import okhttp3.OkHttpClient
-import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
@@ -33,7 +31,12 @@ object RetrofitClient {
     private fun setUpRetrofit(): Retrofit =
         Retrofit.Builder()
             .baseUrl(baseUrl)
-            .client(OkHttpClient.Builder().addInterceptor(HttpLoggingInterceptor { Log.d("OKHTTP : ", it) }).build())
+            .client(
+                OkHttpClient.Builder().addInterceptor {
+                    it.proceed(it.request().newBuilder().addHeader("Authorization",
+                        Auth.AUTH
+                    ).build())
+                }.build())
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .addConverterFactory(GsonConverterFactory.create())
             .build()
