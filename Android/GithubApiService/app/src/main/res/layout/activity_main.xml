@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="mainViewModel"
+            type="com.dev.gold.githubapiservice.viewmodel.MainViewModel" />
+
+        <variable
+            name="listAdapter"
+            type="com.dev.gold.githubapiservice.ListAdapter" />
+
+    </data>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:OnRefreshListener="@{() -> mainViewModel.getGithubRepoStargazers()}"
+        android:refreshing="@{mainViewModel.isLoading}">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adapter="@{listAdapter}"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</layout>
+
