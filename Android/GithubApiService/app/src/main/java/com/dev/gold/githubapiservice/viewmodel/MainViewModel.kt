@@ -53,6 +53,8 @@ class MainViewModel(
         if (isLoading.get()!!)
             return
 
+        disposable.clear()
+
         githubServiceRepository.getGithubRepo()
                 .doOnSubscribe { isLoading.set(true) }
                 .subscribeOn(Schedulers.io())
