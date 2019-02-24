@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GithubUserSearch</string>
+    <string name="tab_text_1">API</string>
+    <string name="tab_text_2">Local</string>
+
+    <string name="menu_search">Search</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

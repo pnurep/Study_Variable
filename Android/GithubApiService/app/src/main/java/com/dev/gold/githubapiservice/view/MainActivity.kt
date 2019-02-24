@@ -7,7 +7,6 @@ import android.os.Bundle
 import com.dev.gold.githubapiservice.ListAdapter
 import com.dev.gold.githubapiservice.R
 import com.dev.gold.githubapiservice.databinding.ActivityMainBinding
-import com.dev.gold.githubapiservice.model.Stargazer
 import com.dev.gold.githubapiservice.repository.GithubServiceRepoImpl
 import com.dev.gold.githubapiservice.viewmodel.MainViewModel
 import com.dev.gold.githubapiservice.viewmodel.MainViewModelFactory

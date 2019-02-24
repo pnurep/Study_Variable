@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="gold.dev.com.githubusersearch.viewmodel.MainViewModel" />
+
+        <variable
+            name="user"
+            type="gold.dev.com.githubusersearch.model.Users.Item" />
+
+    </data>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:loadImageFromUrl="@{user.avatarUrl}" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@{user.login}"
+            app:layout_constraintLeft_toRightOf="@id/iv_profile"
+            app:layout_constraintTop_toTopOf="@id/iv_profile"
+            tools:text="user_name" />
+
+        <gold.dev.com.githubusersearch.view.CheckableImageView
+            android:id="@+id/iv_like"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="16dp"
+            app:setLike="@{user.like}"
+            android:onClick="@{(v) -> viewModel.setLike(v, user)}"
+            android:background="@drawable/like_selector"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>
+
