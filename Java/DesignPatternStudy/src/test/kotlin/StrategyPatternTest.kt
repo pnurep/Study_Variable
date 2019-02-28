@@ -1,3 +1,4 @@
+import StrategyPattern.Axe
 import StrategyPattern.Bow
 import StrategyPattern.Character
 import StrategyPattern.Sword
@@ -26,6 +27,12 @@ class StrategyPatternTest {
     fun BowCharacterTest() {
         Character(Bow()).attack()
         assertThat(outContent.toString()).isEqualTo("활 공격!")
+    }
+
+    @Test
+    fun AxeCharacterTest() {
+        Character(Axe()).attack()
+        assertThat(outContent.toString()).isEqualTo("도끼 공격!")
     }
 
 }
