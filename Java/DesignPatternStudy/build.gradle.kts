@@ -15,6 +15,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     testCompile("junit", "junit", "4.12")
+    testCompile("org.assertj:assertj-core:3.11.1")
 }
 
 configure<JavaPluginConvention> {
