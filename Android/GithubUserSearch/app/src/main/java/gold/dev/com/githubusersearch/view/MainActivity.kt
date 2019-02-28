@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
                 viewModel = this@ApiFragment.viewModel
                 listAdapter = this@ApiFragment.listAdapter
                 list.setHasFixedSize(true)
-                list.layoutManager.isItemPrefetchEnabled
+                list.layoutManager.isItemPrefetchEnabled = true
                 DividerItemDecoration(list.context, LinearLayout.VERTICAL).apply {
                     setDrawable(ContextCompat.getDrawable(list.context, R.drawable.list_divider)!!)
                     list.addItemDecoration(this)
@@ -153,7 +153,7 @@ class MainActivity : AppCompatActivity() {
                 viewModel = this@LocalFragment.viewModel
                 listAdapter = this@LocalFragment.listAdapter
                 list.setHasFixedSize(true)
-                list.layoutManager.isItemPrefetchEnabled
+                list.layoutManager.isItemPrefetchEnabled = true
                 DividerItemDecoration(list.context, LinearLayout.VERTICAL).apply {
                     setDrawable(ContextCompat.getDrawable(list.context, R.drawable.list_divider)!!)
                     list.addItemDecoration(this)
