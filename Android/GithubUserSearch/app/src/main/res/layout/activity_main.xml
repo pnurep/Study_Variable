@@ -40,9 +40,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:iconifiedByDefault="false"
-                    app:iconifiedByDefault="false"
-                    app:addOnQueryTextListener="@{viewModel.onQueryTextListener}" />
+                    android:layout_gravity="end"
+                    android:animateLayoutChanges="true"
+                    app:addOnQueryTextListener="@{viewModel.onQueryTextListener}"
+                    app:iconifiedByDefault="true"
+                    app:queryHint="@string/search_kor" />
 
             </android.support.v7.widget.Toolbar>
 
