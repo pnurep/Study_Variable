@@ -1,4 +1,4 @@
-package StrategyPattern
+package strategy_pattern
 
 class Axe: Weapon {
 

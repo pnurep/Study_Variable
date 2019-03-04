@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a10912c-041f-4766-80de-dc2daf727d3e" name="Default Changelist" comment="" />
+    <list default="true" id="0a10912c-041f-4766-80de-dc2daf727d3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/summary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/http/HttpClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/http/HttpClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/ApiFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/ApiFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/LocalFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/LocalFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/SimpleMVPExample/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/SimpleMVPExample/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/AInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/AInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/AInterfaceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/AInterfaceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/AObj.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/AObj.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Axe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Axe.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Bow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Bow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Character.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Character.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Sword.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Sword.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Weapon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Weapon.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/summary.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/summary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/StrategyPatternTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/StrategyPatternTest.kt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -19,19 +39,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Character.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Character.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/StrategyPatternTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
-              <caret line="34" column="61" lean-forward="true" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+              <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
               <folding>
                 <element signature="e#0#266#0" expanded="true" />
               </folding>
@@ -39,11 +59,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/adapter_pattern/summary.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Axe.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Axe.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -77,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Character.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Axe.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/StrategyPatternTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/summary.md" />
       </list>
     </option>
   </component>
@@ -90,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,14 +152,6 @@
               <item name="DesignPatternStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatternStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatternStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatternStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -142,6 +166,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,14 +232,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyPattern.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="strategy_pattern.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="DesignPatternStudy_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="StrategyPattern.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="strategy_pattern.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,7 +257,7 @@
       <list>
         <item itemvalue="JUnit.StrategyPatternTest" />
         <item itemvalue="JUnit.StrategyPatternTest.CharacterTest" />
-        <item itemvalue="Kotlin.StrategyPattern.MainKt" />
+        <item itemvalue="Kotlin.strategy_pattern.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +273,7 @@
       <updated>1551364261199</updated>
       <workItem from="1551364263284" duration="448000" />
       <workItem from="1551364738271" duration="5709000" />
+      <workItem from="1551708887727" duration="186000" />
     </task>
     <servers />
   </component>
@@ -275,18 +301,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6157000" />
+    <option name="totallyTimeSpent" value="6353000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25559106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3296146" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40272614" />
@@ -300,6 +325,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.3110285" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3296146" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -314,63 +340,57 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/AInterface2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/AObj.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/AInterface2.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/AObj.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/AInterfaceImpl.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/AInterfaceImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/AInterface.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/AInterface.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Weapon.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Weapon.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Sword.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Sword.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Bow.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Bow.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/summary.md">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/summary.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="357">
@@ -387,27 +407,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Character.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Character.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/StrategyPattern/Axe.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/strategy_pattern/Axe.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/StrategyPatternTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
-          <caret line="34" column="61" lean-forward="true" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
           <folding>
             <element signature="e#0#266#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/adapter_pattern/summary.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

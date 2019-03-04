@@ -1,4 +1,4 @@
-package StrategyPattern
+package strategy_pattern
 
 class AObj(private val aInterface: AInterface) {
 

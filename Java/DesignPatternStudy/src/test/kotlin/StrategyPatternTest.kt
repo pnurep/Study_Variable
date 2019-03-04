@@ -1,7 +1,7 @@
-import StrategyPattern.Axe
-import StrategyPattern.Bow
-import StrategyPattern.Character
-import StrategyPattern.Sword
+import strategy_pattern.Axe
+import strategy_pattern.Bow
+import strategy_pattern.Character
+import strategy_pattern.Sword
 import org.assertj.core.api.Assertions.*
 import org.junit.Before
 import org.junit.Test

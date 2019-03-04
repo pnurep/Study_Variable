@@ -53,8 +53,14 @@ class ApiFragment : Fragment() {
             viewModel = this@ApiFragment.viewModel
             listAdapter = this@ApiFragment.listAdapter
             list.setHasFixedSize(true)
-            list.layoutManager.isItemPrefetchEnabled = true
-            (list.layoutManager as LinearLayoutManager).initialPrefetchItemCount = 10
+
+            // 이미 25.0.0 부터는 디폴트로 true 로 설정되어 있음 참고로 25.0.0 은 리사이클러뷰에 버그가 있으니
+            // 25.0.1 부터 사용하는 것이 권장된다.
+            // list.layoutManager.isItemPrefetchEnabled = true
+            // 요건 중첩리스트 상황일 때만 사용하는 메서드! 중첩상황일때 이 메서드를 사용해 값을 지정해 놓으면 inner 리사이클러뷰가
+            // 그 지정값만큼 이이템을 prefetch 하려고 시도한다. 내부 디폴트 값은 2.
+            // layoutManager 가 중첩상황에 처해있지 않다면 이 메서드를 호출해도 아무것도 발생하지 않는다.
+            // (list.layoutManager as LinearLayoutManager).initialPrefetchItemCount = 10
             DividerItemDecoration(list.context, LinearLayout.VERTICAL).apply {
                 setDrawable(ContextCompat.getDrawable(list.context, R.drawable.list_divider)!!)
                 list.addItemDecoration(this)

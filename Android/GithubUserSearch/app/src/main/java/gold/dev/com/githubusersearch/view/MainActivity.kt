@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         with(viewPager) {
             adapter = mPagerAdapter
-            // ViewPager 의 페이지가 넘어갈 때 이를 TabLayout 에 알려 동기를 맞춘
+            // ViewPager 의 페이지가 넘어갈 때 이를 TabLayout 에 알려 동기를 맞춘다.
             addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tabs))
             // 탭의 선택상태를 제공한다. TabLayoutOnPageChangeListener 는 내부에 이미 필수 콜백들을 정의해 놓았다.
             tabs.addOnTabSelectedListener(TabLayout.ViewPagerOnTabSelectedListener(this))

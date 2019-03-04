@@ -29,7 +29,8 @@ object HttpClient {
             .client(
                 OkHttpClient.Builder()
                     .addInterceptor(HttpLoggingInterceptor
-                    { Log.d("OKHTTP : ", it) }).build()
+                    { Log.d("OKHTTP : ", it) }.setLevel(HttpLoggingInterceptor.Level.BODY)
+                    ).build()
             )
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .addConverterFactory(GsonConverterFactory.create())
