@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a10912c-041f-4766-80de-dc2daf727d3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/Adapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/AdapterImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/Math.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/AdapterPatternTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/summary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/ApiFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/ApiFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/LocalFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/LocalFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/viewmodel/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/viewmodel/MainViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/DesignPatternStudy_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/DesignPatternStudy_main.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/StrategyPattern/AInterface.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/StrategyPattern/AInterfaceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/StrategyPattern/AObj.class" beforeDir="false" />
@@ -17,8 +17,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/StrategyPattern/MainKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/StrategyPattern/Sword.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/StrategyPattern/Weapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/StrategyPatternTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/StrategyPatternTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/summary.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/summary.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,43 +35,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/AdapterPatternTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/adapter_pattern/Adapter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/adapter_pattern/AdapterImpl.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/StrategyPatternTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#270#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/template_method_pattern/summary.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -118,12 +86,13 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/summary.md" />
         <option value="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/AdapterImpl.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/AdapterPatternTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/summary.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,22 +126,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatternStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatternStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter_pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatternStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatternStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatternStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -309,7 +262,8 @@
       <workItem from="1551364263284" duration="448000" />
       <workItem from="1551364738271" duration="5709000" />
       <workItem from="1551708887727" duration="980000" />
-      <workItem from="1551710436605" duration="320000" />
+      <workItem from="1551710436605" duration="813000" />
+      <workItem from="1551793006450" duration="241000" />
     </task>
     <servers />
   </component>
@@ -335,14 +289,21 @@
     <history-entry file="StrategyPatternTest - 2019.03.01 at 02h 13m 08s.xml">
       <configuration name="StrategyPatternTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AdapterPatternTest - 2019.03.04 at 23h 44m 11s.xml">
+      <configuration name="AdapterPatternTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdapterPatternTest - 2019.03.04 at 23h 44m 27s.xml">
+      <configuration name="AdapterPatternTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7457000" />
+    <option name="totallyTimeSpent" value="8191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25825346" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26091588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -356,7 +317,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286004" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.3110285" />
@@ -511,6 +472,30 @@
           <folding>
             <element signature="e#0#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/classes/AdapterPatternTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/classes/StrategyPatternTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/template_method_pattern/summary.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
