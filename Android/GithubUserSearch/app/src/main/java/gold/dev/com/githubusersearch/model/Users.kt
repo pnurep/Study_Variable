@@ -2,6 +2,7 @@ package gold.dev.com.githubusersearch.model
 
 import android.databinding.ObservableField
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 
 data class Users(
@@ -11,7 +12,7 @@ data class Users(
     val items: List<Item> = listOf(),
     @SerializedName("total_count")
     val totalCount: Int = 0
-) {
+) : Serializable {
     data class Item(
         @SerializedName("avatar_url")
         val avatarUrl: String = "",
@@ -52,7 +53,7 @@ data class Users(
         @SerializedName("url")
         val url: String = "",
         var like: ObservableField<Boolean> = ObservableField(false)
-    ) {
+    ) : Serializable {
 
         override fun equals(other: Any?): Boolean {
             if (super.equals(other))

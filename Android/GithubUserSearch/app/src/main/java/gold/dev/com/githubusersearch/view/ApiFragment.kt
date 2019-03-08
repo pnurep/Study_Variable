@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.content.ContextCompat
 import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,6 +13,7 @@ import android.widget.LinearLayout
 import gold.dev.com.githubusersearch.ListAdapter
 import gold.dev.com.githubusersearch.R
 import gold.dev.com.githubusersearch.databinding.FragmentApiBinding
+import gold.dev.com.githubusersearch.model.Users
 
 class ApiFragment : Fragment() {
 
@@ -28,10 +28,15 @@ class ApiFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        lifecycle.addObserver(viewModel)
+        //lifecycle.addObserver(viewModel)
+
+        if (savedInstanceState != null)
+            listAdapter.data = savedInstanceState.get("data") as ArrayList<Users.Item>
+
         viewModel.userData.observe(this, Observer {
             it?.run {
-                listAdapter.data = this
+                if (this.size > 0)
+                    listAdapter.data = this
             } ?: run {
                 listAdapter.data = ArrayList()
             }
@@ -68,6 +73,12 @@ class ApiFragment : Fragment() {
         }
 
         return binding.root
+    }
+
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putSerializable("data", listAdapter.data)
     }
 
 }

@@ -20,7 +20,7 @@ import io.reactivex.schedulers.Schedulers
 class MainViewModel(
     private val app: Application,
     private val repo: GithubUserSearchRepo
-) : ViewModel(), LifecycleObserver {
+) : ViewModel() {
 
     val isLoading = ObservableField<Boolean>(false)
 

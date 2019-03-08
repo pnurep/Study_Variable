@@ -10,7 +10,6 @@ import gold.dev.com.githubusersearch.databinding.ActivityMainBinding
 import gold.dev.com.githubusersearch.repository.GithubUserSearchRepoImpl
 import gold.dev.com.githubusersearch.viewmodel.MainViewModel
 import gold.dev.com.githubusersearch.viewmodel.MainViewModelFactory
-
 import kotlinx.android.synthetic.main.activity_main.*
 
 
