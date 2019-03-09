@@ -8,6 +8,7 @@ import android.support.v7.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 import com.dev.gold.gsonexample.model.User
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 
 
 class MainActivity : AppCompatActivity() {
@@ -43,6 +44,12 @@ class MainActivity : AppCompatActivity() {
 
     fun parseData(str: String): List<User> {
         return Gson().fromJson(str, Array<User>::class.java).toList()
+        //return Gson().fromJson<List<User>>(str, object : TypeToken<List<User>>() {}.type).toList()
     }
 
+//    inline fun <reified T> Gson.fromJson(json: String) = this.fromJson<T>(json, object: TypeToken<T>() {}.type)
+//    and then you can call it in this way:
+//    val turns = Gson().fromJson<Turns>(pref.turns)
+//    // or
+//    val turns: Turns = Gson().fromJson(pref.turns)
 }
