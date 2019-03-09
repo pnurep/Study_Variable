@@ -13,7 +13,7 @@ import android.widget.LinearLayout
 import gold.dev.com.githubusersearch.ListAdapter
 import gold.dev.com.githubusersearch.R
 import gold.dev.com.githubusersearch.databinding.FragmentLocalBinding
-import gold.dev.com.githubusersearch.model.Users
+import gold.dev.com.githubusersearch.db.SQLiteHelper
 
 class LocalFragment : Fragment() {
 
@@ -25,13 +25,17 @@ class LocalFragment : Fragment() {
 
     private val viewModel by lazy { (activity as MainActivity).takeViewModel() }
     private val listAdapter by lazy { ListAdapter(viewModel) }
+    private val db by lazy { SQLiteHelper(this.context!!, "local") }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         //lifecycle.addObserver(viewModel)
 
-        if (savedInstanceState != null)
-            listAdapter.data = savedInstanceState.get("data") as ArrayList<Users.Item>
+        if (savedInstanceState != null) {
+            //listAdapter.data = savedInstanceState.get("data") as ArrayList<Users.Item>
+            val storedData = db.getStoredData()
+            listAdapter.data = storedData
+        }
 
         viewModel.localLikeData.observe(this, Observer {
             it?.run {
@@ -75,7 +79,19 @@ class LocalFragment : Fragment() {
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
-        outState.putSerializable("data", listAdapter.data)
+        //outState.putSerializable("data", listAdapter.data)
+        outState.putBoolean("isStored", true)
+    }
+
+    override fun onPause() {
+        super.onPause()
+        db.deleteData()
+        db.saveData(listAdapter.data)
+    }
+
+    override fun onDestroy() {
+        db.close()
+        super.onDestroy()
     }
 
 }
