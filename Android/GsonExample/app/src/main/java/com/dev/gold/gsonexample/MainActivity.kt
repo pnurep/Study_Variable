@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
     fun parseData(str: String): List<User> {
         return Gson().fromJson(str, Array<User>::class.java).toList()
-        //return Gson().fromJson<List<User>>(str, object : TypeToken<List<User>>() {}.type).toList()
+        //return Gson().fromJson<List<User>>(str, object : TypeToken<List<User>>() {}.type)
     }
 
 //    inline fun <reified T> Gson.fromJson(json: String) = this.fromJson<T>(json, object: TypeToken<T>() {}.type)
