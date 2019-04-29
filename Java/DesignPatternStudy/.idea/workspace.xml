@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a10912c-041f-4766-80de-dc2daf727d3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/AbstractGameConnectionHelper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/DefaultGameConnectionHelper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/ApiFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/ApiFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/LocalFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/view/LocalFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/viewmodel/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/GithubUserSearch/app/src/main/java/gold/dev/com/githubusersearch/viewmodel/MainViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/summary.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/summary.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,35 +23,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/template_method_pattern/AbstractGameConnectionHelper.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/template_method_pattern/DefaultGameConnectionHelper.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/template_method_pattern/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,8 +64,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/AdapterImpl.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/AdapterPatternTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/summary.md" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/AbstractGameConnectionHelper.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/DefaultGameConnectionHelper.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/AbstractGameConnectionHelper.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/template_method_pattern/Main.kt" />
       </list>
     </option>
@@ -305,7 +273,7 @@
       <workItem from="1551364738271" duration="5709000" />
       <workItem from="1551708887727" duration="980000" />
       <workItem from="1551710436605" duration="813000" />
-      <workItem from="1551793006450" duration="2179000" />
+      <workItem from="1551793006450" duration="2512000" />
     </task>
     <servers />
   </component>
@@ -339,19 +307,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10129000" />
+    <option name="totallyTimeSpent" value="10462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26091588" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26091588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40222898" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40222898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -540,6 +508,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/template_method_pattern/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/template_method_pattern/DefaultGameConnectionHelper.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -547,17 +522,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/template_method_pattern/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/template_method_pattern/AbstractGameConnectionHelper.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
